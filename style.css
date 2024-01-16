@@ -77,18 +77,87 @@ body{
     text-size-adjust: 12px;
     padding-left: 5px;
 }
-.banner-input>button{
+.banner-input>button, .Our-Popular-Tours-text>button{
     height: 25px;
     width: 100px;
     border-radius: 5px;
     border: none;
     font-size: 7px;
     color:  white;
-    background-color: rgb(247, 120, 120);
+    background-color: #FF5400;
      
 }
 
+/* Our-Popular-Tours starts here  */
+.Our-Popular-Tours{
+    display: flex;
+    margin: 50px;
+    max-width: 1200px;
+    
+}
+.Our-Popular-Tours-text{
+    padding: 30px;
+    
+}
 
+/* Our-Popular-Tours endss here  */
+/* Choose-Your-Destination starts here  */
+.Choose-Your-Destination>h1{
+    justify-content: center;
+    display: flex;
+   
+}
+
+.Choose-Your-Destination>p{
+    justify-content: center;
+    display: flex;
+   
+}
+.Choose-Your-Destination-images{
+    display: grid;
+}
+.image-container{
+    max-width: 1200px;
+    padding: 0 35px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+}
+.image-container img{
+    width: 100%;
+    gap: 10px;
+    object-fit: cover;
+}
+.grid-item-1{
+    grid-column: 1/7;
+    grid-row: 1/1;
+}
+.grid-item-2{
+    grid-column: 7/13;
+    grid-row: 1/1;
+}
+.grid-item-3{
+    grid-column: 1/5;
+    grid-row: 2/2;
+}
+.grid-item-4{
+    grid-column: 5/10;
+    grid-row: 2/2;
+}
+.grid-item-5{
+    grid-column: 10/13;
+    grid-row: ;
+}
+.grid-item-6{
+    grid-column: 1/6 ;
+    grid-row: 3/3;
+}
+.grid-item-7{
+    grid-column: 6/13;
+    grid-row: 3/3 ;
+}
+/* Choose-Your-Destination ends here  */
 /* responsive for mobile starts here */
 @media screen and (max-width: 600);{
    .navbar{
