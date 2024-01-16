@@ -158,14 +158,79 @@ body{
     grid-row: 3/3 ;
 }
 /* Choose-Your-Destination ends here  */
+/* Why-Choose-us starts here  */
+.Why-Choose-us{
+    max-width: 1200px;
+    padding: 0 35px;
+    
+}
+.Why-Choose-us-text>h1{
+    justify-content: center;
+    display: flex;
+}
+.Why-Choose-us-text>p{
+    justify-content: center;
+    display: flex;
+}
+/* Why-Choose-us ends here  */
+.Why{
+    margin: 0 35px;
+    display: flex;
+    padding-left: 10px;
+    gap: 10px;
+    max-width: 1200px;
+    border-radius: 5%;
+}
+.hotel-icon{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    display: inline;
+    
+}
+.map-icon{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    display: inline;
+    
+}
+
+.new-why{
+    margin: 0 35px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    gap: 10px;
+    max-width: 1200px;
+    border-radius: 5%;
+}
+.price-tag-icon{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    display: inline;
+    
+}
 /* responsive for mobile starts here */
 @media screen and (max-width: 600);{
    .navbar{
         flex-direction: column;
-        margin-left: 50px;
+        
     }
     .menubar{
         flex-direction: column;
     }
+
 }
+
+
 /* responsive for mobile ends here */
