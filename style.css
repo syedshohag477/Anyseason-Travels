@@ -1,0 +1,102 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600&family=Work+Sans:wght@400;600;700;800&display=swap');
+</style>
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* navbar style starts here */
+.anyseason-logo{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: 2rem;
+    width: 50%;
+    
+}
+.anyseason-logo img{
+    width: 90px;
+    object-fit: cover;
+}
+.travel{
+    color: coral;
+}
+.navbar{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    
+    
+}
+.menubar{
+    text-decoration: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+/* navbar style ends here */
+/* banner style sterts here */
+.banner-text{
+    color: white;
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 500px;
+    background-size: relative;
+    background-repeat: no-repeat;
+    
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+}
+.banner-text h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+    padding-top: 150px;
+}
+.banner-text p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* banner style ends here */
+.banner-input{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+.input{
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    text-size-adjust: 12px;
+    padding-left: 5px;
+}
+.banner-input>button{
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    font-size: 7px;
+    color:  white;
+    background-color: rgb(247, 120, 120);
+     
+}
+
+
+/* responsive for mobile starts here */
+@media screen and (max-width: 600);{
+   .navbar{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .menubar{
+        flex-direction: column;
+    }
+}
+/* responsive for mobile ends here */
