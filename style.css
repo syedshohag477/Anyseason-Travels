@@ -220,6 +220,22 @@ body{
     display: inline;
     
 }
+.perfect-place{
+    display: flex;
+    margin: 50px;
+    max-width: 1200px;
+    
+}
+.Our-Popular-Tours-text{
+    padding: 30px;
+    
+}
+
+.Our-Popular-Tours-imgl{
+    width: 300px;
+    height: 250px;
+}
+
 /* responsive for mobile starts here */
 @media screen and (max-width: 600);{
    .navbar{
