@@ -186,17 +186,21 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(242, 247, 232);
     display: inline;
+    height: 250px;
+    border-radius: 10px;
     
 }
 .map-icon{
     width: 50%;
     display: flex;
+    height: 250px;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(216, 230, 235);
     display: inline;
+    border-radius: 10px;
     
 }
 
@@ -218,6 +222,8 @@ body{
     align-items: center;
     background-color: lightblue;
     display: inline;
+    height: 250px;
+    border-radius: 10px;
     
 }
 .perfect-place{
@@ -232,9 +238,54 @@ body{
 }
 
 .Our-Popular-Tours-imgl{
-    width: 300px;
-    height: 250px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
 }
+/* Newsletter-section starts here  */
+.Newsletter-section{
+    display: flex;
+    margin: 50px;
+    max-width: 1200px;
+    gap: 10px;
+    
+    
+}
+.Newsletter-text{
+    min-width: 48%;  
+    border: 1px solid orangered;
+    border-radius: 5px; 
+
+}
+.Newsletter-text>button{
+    width: 408px;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 80px;
+    background-color: #FF5400;
+    border: none;
+}
+.in{
+    width: 400px;
+    height: 2rem; 
+    margin-top: 15px;
+    margin-left: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.newsletter-image{
+    min-width: 48%;
+   
+}
+.hrq{
+    max-width: 70%;
+}
+.Newsletter-text h1 p{
+    padding-left: 30px;
+}
+/* Newsletter-section ends here  */
 
 /* responsive for mobile starts here */
 @media screen and (max-width: 600);{
