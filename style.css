@@ -285,6 +285,39 @@ body{
 .Newsletter-text h1 p{
     padding-left: 30px;
 }
+
+
+
+/* footer-section starts here  */
+.footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    max-width: 1200px;
+    width: 1440px;
+    height: 502px;
+    padding: 0 35px;
+}
+.anyseason-logo-footer{
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+
+}
+..anyseason-logo-footer>p{
+    font-size: 5rem;
+}
+.anyseason-logo-footerp{
+    justify-content: center;
+    display: flex;
+    padding-top: 10
+
+}
+.anyseason-logo-footeri{
+    justify-content: center;
+    display: flex;
+    padding-top: 10
+
+}
+/* footer-section ends here  */
 /* Newsletter-section ends here  */
 
 /* responsive for mobile starts here */
