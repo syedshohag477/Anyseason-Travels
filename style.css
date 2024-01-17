@@ -1,7 +1,9 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600&family=Work+Sans:wght@400;600;700;800&display=swap');
 </style>
-
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -14,11 +16,13 @@ body{
     align-items: center;
     font-weight: 2rem;
     width: 50%;
+   
     
 }
 .anyseason-logo img{
     width: 90px;
     object-fit: cover;
+    
 }
 .travel{
     color: coral;
@@ -29,6 +33,7 @@ body{
     display: flex;
     
     
+    
 }
 .menubar{
     text-decoration: none;
@@ -37,6 +42,10 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
+    
+}
+.none{
+    text-decoration: none;
 }
 /* navbar style ends here */
 /* banner style sterts here */
@@ -324,6 +333,7 @@ body{
 @media screen and (max-width: 600);{
    .navbar{
         flex-direction: column;
+        object-fit: scale-down;
         
     }
     .menubar{
