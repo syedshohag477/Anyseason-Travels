@@ -329,7 +329,38 @@ body{
     .menubar{
         flex-direction: column;
     }
-
+    .perfect-place{
+        flex-direction: column;
+    }
+    .anyseason-logo{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .menubar{
+        flex-direction: column;
+    }
+    .banner-text h1{
+        flex-direction: column;
+    }
+    .anyseason-logo-footeri{flex-direction: column;}
+    .anyseason-logo-footerp{flex-direction: column;}
+    .anyseason-logo-footer{flex-direction: column;}
+    .Newsletter-section{flex-direction: column;}
+    .perfect-place{flex-direction: column;}
+    .price-tag-icon{flex-direction: column;}
+    .price-tag-icon{flex-direction: column;}
+    .new-why.map-icon{flex-direction: column;}
+    .hotel-icon{flex-direction: column;}
+    .Why{flex-direction: column;}
+    .Why-Choose-us-text>p{flex-direction: column;}
+    .Why-Choose-us-text>h1{flex-direction: column;}
+    .Choose-Your-Destination>p{flex-direction: column;}
+    .Choose-Your-Destination>h1{flex-direction: column;}
+    .Our-Popular-Tours{flex-direction: column;}
+    .banner-input{flex-direction: column;}
+    .banner-text p{flex-direction: column;}
 }
 
 
